@@ -1,29 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Home from './paginas/home';
+import Sobre from './paginas/sobre';
+import './assets/css/base.css';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>
-          Hello World!
-        </p>
-
-        <p>
-          Esse é um projeto de petshop para estudo do Senac.
-        </p>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>
+        <Home />
+        <Sobre />
+      </div>
     </div>
   );
 }

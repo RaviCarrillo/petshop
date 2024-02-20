@@ -1,4 +1,5 @@
-import React from "react";
+import React from "react"; // Add the missing import statement for React library
+
 const Home = () => {
     return (
         <main>
